@@ -8,3 +8,10 @@ module.exports = {
     : '/'
 }
 
+module.exports = {
+  productionSourceMap: false,
+  css: {
+    extract: true,
+    sourceMap: false,
+  },
+};
