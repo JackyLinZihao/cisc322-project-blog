@@ -12,7 +12,7 @@
           <ul>
             <li><a href="https://docs.scummvm.org/en/v2.8.0/">About ScummVM<span>&gt;</span></a></li>
             <li><a href="https://onq.queensu.ca/d2l/le/content/959322/viewContent/5711369/View">Project detail <span>&gt;</span></a></li>
-            <li><a href="#">A1. Conceptual Architecture <span>&gt;</span></a></li>
+            <li><a href="https://docs.google.com/document/d/1kMLdL93nUJLYjgldISFDgx3uo8D1ewVyGsJoDKKIpgo/edit?usp=sharing">A1. Conceptual Architecture <span>&gt;</span></a></li>
             <li><a href="#">A2. Concrete Architecture <span>&gt;</span></a></li>
             <li><a href="#">A3. Architectural Enhancement <span>&gt;</span></a></li>
           </ul>
