@@ -10,16 +10,16 @@
       <div class="w">
         <div class="subnav">
           <ul>
-            <li><a href="https://docs.scummvm.org/en/v2.8.0/">About ScummVM<span>&gt;</span></a></li>
-            <li><a href="https://onq.queensu.ca/d2l/le/content/959322/viewContent/5711369/View">Project detail <span>&gt;</span></a></li>
-            <li><a href="#">A1. Conceptual Architecture <span>&gt;</span></a>
+            <li class="original"><a class="main_link" href="https://docs.scummvm.org/en/v2.8.0/">About ScummVM<span>&gt;</span></a></li>
+            <li class="original"><a class="main_link" href="https://onq.queensu.ca/d2l/le/content/959322/viewContent/5711369/View">Project detail <span>&gt;</span></a></li>
+            <li class="original"><a class="main_link" href="#">A1. Conceptual Architecture <span>&gt;</span></a>
                 <ul class="extendlist">
-                    <li class="ex"><a class="link" href="https://docs.google.com/document/d/1kMLdL93nUJLYjgldISFDgx3uo8D1ewVyGsJoDKKIpgo/edit?usp=sharing">Report</a></li>
-                    <li class="ex"><a class="link" href="https://youtu.be/Edj3f_PXFKA">Presentation Video</a></li>
+                    <li class="ex"><a class="ex_link" href="https://docs.google.com/document/d/1kMLdL93nUJLYjgldISFDgx3uo8D1ewVyGsJoDKKIpgo/edit?usp=sharing">Report</a></li>
+                    <li class="ex"><a class="ex_link" href="https://youtu.be/Edj3f_PXFKA">Presentation Video</a></li>
                 </ul>
             </li>
-            <li><a href="#">A2. Concrete Architecture <span>&gt;</span></a></li>
-            <li><a href="#">A3. Architectural Enhancement <span>&gt;</span></a></li>
+            <li class="original"><a class="main_link" href="#">A2. Concrete Architecture <span>&gt;</span></a></li>
+            <li class="original"><a class="main_link" href="#">A3. Architectural Enhancement <span>&gt;</span></a></li>
           </ul>
         </div>
       </div>
@@ -149,7 +149,7 @@ li {
     color: #fff;
 }
 
-.subnav ul li:hover a{
+.original:hover .main_link{
     color: #00b4ff;
 }
 
@@ -227,7 +227,7 @@ li {
     z-index: 1000;
 }
 
-.extendlist li {
+.ex{
     width: 170px;
     height: 84px;
 }
@@ -237,20 +237,13 @@ li {
     color: #fff; /* 默认为白色 */
 }
 
-.link:hover {
+.ex:hover .ex_link{
     color: #00b4ff; /* 鼠标悬停时变为蓝色 */
 }
 
-.subnav ul li:hover .extendlist,
-.extendlist:hover {
+.subnav ul li:hover .extendlist{
     display: block;
 }
-
-.extendlist li {
-    font-size: 16px;
-}
-
-
 
 </style>
 
