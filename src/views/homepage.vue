@@ -12,7 +12,12 @@
           <ul>
             <li><a href="https://docs.scummvm.org/en/v2.8.0/">About ScummVM<span>&gt;</span></a></li>
             <li><a href="https://onq.queensu.ca/d2l/le/content/959322/viewContent/5711369/View">Project detail <span>&gt;</span></a></li>
-            <li><a href="https://docs.google.com/document/d/1kMLdL93nUJLYjgldISFDgx3uo8D1ewVyGsJoDKKIpgo/edit?usp=sharing">A1. Conceptual Architecture <span>&gt;</span></a></li>
+            <li><a href="#">A1. Conceptual Architecture <span>&gt;</span></a>
+                <ul class="extendlist">
+                    <li class="ex"><a class="link" href="https://docs.google.com/document/d/1kMLdL93nUJLYjgldISFDgx3uo8D1ewVyGsJoDKKIpgo/edit?usp=sharing">Report</a></li>
+                    <li class="ex"><a class="link" href="https://youtu.be/Edj3f_PXFKA">Presentation Video</a></li>
+                </ul>
+            </li>
             <li><a href="#">A2. Concrete Architecture <span>&gt;</span></a></li>
             <li><a href="#">A3. Architectural Enhancement <span>&gt;</span></a></li>
           </ul>
@@ -132,11 +137,12 @@ li {
 
 
 .subnav ul li {
-    
+    position: relative; /* 添加这行，确保子菜单相对主菜单定位 */
     height: 84px;
     line-height: 84px;
     padding: 0 20px;
 }
+
 
 .subnav ul li a {
     font-size: 18px;
@@ -210,5 +216,41 @@ li {
     font-size: 20px;
     margin: 20px 20px 20px 20px;
 }
+
+.extendlist {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.extendlist li {
+    width: 170px;
+    height: 84px;
+}
+
+.link {
+    font-size: 16px;
+    color: #fff; /* 默认为白色 */
+}
+
+.link:hover {
+    color: #00b4ff; /* 鼠标悬停时变为蓝色 */
+}
+
+.subnav ul li:hover .extendlist,
+.extendlist:hover {
+    display: block;
+}
+
+.extendlist li {
+    font-size: 16px;
+}
+
+
+
 </style>
 
