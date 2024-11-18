@@ -18,7 +18,12 @@
                     <li class="ex"><a class="ex_link" href="https://youtu.be/Edj3f_PXFKA">Presentation Video</a></li>
                 </ul>
             </li>
-            <li class="original"><a class="main_link" href="#">A2. Concrete Architecture <span>&gt;</span></a></li>
+            <li class="original"><a class="main_link" href="#">A2. Concrete Architecture <span>&gt;</span></a>
+                <ul class="extendlist">
+                    <li class="ex"><a class="ex_link" href="https://docs.google.com/document/d/1oG7sb9yNfmFs-cTcKSWN-O3O6rT6HeZGFLo5w9noIn4/edit?usp=sharing">Report</a></li>
+                    <li class="ex"><a class="ex_link" href="https://youtu.be/vR6QBUS76Tk">Presentation Video</a></li>
+                </ul>
+            </li>
             <li class="original"><a class="main_link" href="#">A3. Architectural Enhancement <span>&gt;</span></a></li>
           </ul>
         </div>
