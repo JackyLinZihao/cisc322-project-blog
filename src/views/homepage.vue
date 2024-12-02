@@ -24,7 +24,12 @@
                     <li class="ex"><a class="ex_link" href="https://youtu.be/vR6QBUS76Tk">Presentation Video</a></li>
                 </ul>
             </li>
-            <li class="original"><a class="main_link" href="#">A3. Architectural Enhancement <span>&gt;</span></a></li>
+            <li class="original"><a class="main_link" href="#">A3. Architectural Enhancement <span>&gt;</span></a>
+                <ul class="extendlist">
+                    <li class="ex"><a class="ex_link" href="https://docs.google.com/document/d/1DwqUNwZxodPHva2iUR_dndgQc9-ZqXgaWh2BfY7HsAg/edit?usp=sharing">Report</a></li>
+                    <li class="ex"><a class="ex_link" href="https://youtu.be/-pREYC3744w">Presentation Video</a></li>
+                </ul>
+            </li>
           </ul>
         </div>
       </div>
